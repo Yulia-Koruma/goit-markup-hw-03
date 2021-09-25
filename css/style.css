@@ -64,6 +64,8 @@ body {
 .header {
   border: 1px solid #ececec;
   border-top: none;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo {
@@ -133,8 +135,6 @@ body {
   display: flex;
   align-items: center;
   margin-left: 93px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-contact-container {
@@ -158,13 +158,13 @@ body {
 /* Main contant */
 
 /* Hero section */
+
 .hero {
   background-color: var(--secondary-bgr-color);
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.hero-container {
-}
+
 .hero-title {
   font-weight: 900;
   margin: 0 auto;
@@ -197,12 +197,13 @@ body {
 
 /* about us section */
 
-.about-container {
-  box-sizing: border-box;
+.about {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
 .about-list {
   display: flex;
-  padding-top: 94px;
 }
 .about-list .about-item:not(:last-child) {
   margin-right: 30px;
@@ -228,7 +229,9 @@ body {
   color: var(--primary-text-color);
 }
 /* Our activity section */
-
+.activity {
+  padding-bottom: 94px;
+}
 .activity-title {
   font-weight: 700;
   font-size: 36px;
@@ -237,16 +240,10 @@ body {
   color: var(--secondary-title-color);
 }
 
-.activity-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .activity-title {
   margin-bottom: 50px;
 }
 .activity-list {
-  box-sizing: border-box;
   display: flex;
 }
 
@@ -256,6 +253,8 @@ body {
 /* Our team section */
 
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--third-bgr-color);
 }
 
@@ -273,8 +272,8 @@ body {
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-title-color);
-  margin-top: 30px;
 }
+
 .team-profession {
   font-size: 16px;
   line-height: 1.19;
@@ -283,12 +282,7 @@ body {
   margin-top: 10px;
 }
 
-.team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .team-list {
-  box-sizing: border-box;
   display: flex;
 }
 
@@ -296,7 +290,8 @@ body {
   margin-right: 30px;
 }
 .team-text-box {
-  padding: 0px 60px 30px 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   /* border: 1px solid;
   border-top: none; */
 }
@@ -324,7 +319,7 @@ body {
   font-style: inherit;
   margin-top: 20px;
 }
-.address-list .address-link:not(:last-child) {
+.address-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -358,8 +353,6 @@ body {
   cursor: pointer;
   color: var(--secondary-btn-color);
   background-color: var(--bgr-btn-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -372,16 +365,14 @@ body {
 .filter-btn:focus {
   color: var(--primary-bgr-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.filter {
-  padding-top: 93px;
-  padding-bottom: 34px;
-}
 .filter-list {
-  box-sizing: border-box;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .filter-list .filter-item:not(:last-child) {
   margin-right: 8px;
@@ -390,8 +381,10 @@ body {
 /* Portfolio section */
 
 .portfolio {
+  padding-top: 93px;
   padding-bottom: 94px;
 }
+
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
@@ -399,14 +392,12 @@ body {
   letter-spacing: 0.06em;
   color: var(--secondary-title-color);
   margin-bottom: 4px;
-  text-align: center;
 }
 
 .portfolio-text {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
-  text-align: center;
 }
 
 .portfolio-list {
