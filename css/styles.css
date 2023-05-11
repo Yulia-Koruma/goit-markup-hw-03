@@ -1,0 +1,229 @@
+/* variables */
+:root {
+--title-first: #2E2F42;
+--title-secondary: #FFFFFF;
+--logo-first:#4D5AE5;
+--logo-secondary: #2E2F42;
+--logo-third: #F4F4FD;
+--text-first: #434455;
+--text-secondary: #2E2F42;
+--text-third: #F4F4FD;
+--btn-first: #FFFFFF;
+--btn-secondary: #4D5AE5;
+--background-color-first: #FFFFFF;
+--background-color-secondary: #2E2F42;
+--background-color-third: #F4F4FD;
+--background-btn-first: #4D5AE5;
+--background-btn-second: #F4F4FD;
+--focus-hover: #404BBF;
+}
+
+/* global styles */
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--text-first);
+    background-color: var(--background-color-first);
+}
+
+.link{
+    text-decoration: none;
+}
+ .list{
+    list-style:none;
+}
+
+.top-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--title-first);
+}
+
+.sub-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-first);
+}
+
+.sub-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-first);
+}
+
+/* Header */
+
+.logo-link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-first);
+}
+.logo-text{
+    color: var(--logo-secondary);
+}
+
+.header-adress{
+    font-style: normal;
+}
+
+.header-item{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.header-item-link{
+    color: var(--text-secondary); 
+}
+
+.header-item-link:hover,
+.header-item-link:focus{
+    color: var(--focus-hover);
+}
+
+.header-adress-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-first);
+}
+
+.header-adress-link:hover,
+.header-adress-link:focus{
+    color: var(--focus-hover);
+}
+/* Footer */
+.footer{
+    background-color: var(--background-color-secondary);
+}
+
+.logo-link-footer{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-first);
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-third);
+}
+
+.logo-text-footer{
+    color: var(--logo-third);
+}
+
+
+/* Index Main */
+
+/* Hero */
+
+.hero{
+    background-color: var(--background-color-secondary);
+}
+
+.hero-title{
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--title-secondary);
+}
+
+.hero-button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--btn-first);
+    background-color: var(--background-btn-first);
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus{
+    background-color: var(--focus-hover);
+}
+
+/* Advantages */
+
+/* .advantages-item-title{
+} */
+
+/* .advantages-item-text{
+} */
+
+/* Activity */
+
+/* .activity-title{
+} */
+
+/* Team */
+
+.team{
+    background-color: var(--background-color-third);
+}
+.team-item{
+    background-color: var(--background-color-first);
+}
+/* .team-title{
+
+} */
+
+.team-item-title{
+    text-align: center;
+}
+
+.team-item-text{
+    text-align: center;
+}
+
+/* Portfolio Main */
+
+/* Buttons menu */
+
+.buttons-item-btn{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--btn-secondary);
+background-color: var(--background-btn-second);
+}
+
+.buttons-item-btn{
+    cursor: pointer;
+}
+
+.buttons-item-btn:hover,
+.buttons-item-btn:focus{
+    background-color: var(--focus-hover);
+    color: var(--btn-first);
+}
+
+/* Cards */
+
+/* .portfolio-img-title{
+} */
+
+/* .portfolio-img-text{
+} */
